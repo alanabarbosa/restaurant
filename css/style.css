@@ -1,0 +1,325 @@
+body {
+background: #fff;
+font-family: "Fjalla One", arial, sans-serif;
+font-size: 16px;
+color: #999999;
+text-align: center;
+}
+
+/********NAVEGAÇÃO*****/
+.navbar .navbar-brand {
+color: #8A3A35;
+position: relative;
+letter-spacing: 2px;
+width: 200px;
+}
+
+.navbar i{
+color: #fff;
+}
+
+header {	
+position: fixed;
+width: 100%;
+z-index: 5;
+}
+
+header.sticky{
+padding: 5px 10px;
+background: #8A3A35;
+border-bottom: 1px solid(0,0,0.1);
+transition: all 0.5s;
+}
+
+header.sticky .navbar-brand{
+color: #000;
+}
+
+.navbar ul li {
+text-decoration: none;
+list-style: none;
+}
+
+.navbar ul li a {
+position: relative;
+margin: 0 25px;
+color: #fff;
+font-size: 1.3em;
+text-decoration: none;
+text-transform: uppercase;
+transition: .5s;
+padding: 5px 10px;
+}
+
+.navbar-collapse ul li a:hover{
+background: rgba(255,255,255,0.2);
+color: white;
+}
+
+/********home carousel*****/
+#mobile{
+background: url('../images/banner.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+}
+
+#mobile .container{
+width: 100%;
+height: 100%;
+}
+
+#mobile .container p{
+margin-top: 50px;
+font-size: 1.9em;
+color: #fff;
+}
+
+#mobile .container .btn{
+background: none;
+border: 5px solid #8A3A35;
+color: #fff;
+padding: 8px 8px;
+}
+#mobile .container .btn:hover{
+background: #8A3A35;
+color: #fff;
+}
+
+#home { 
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+}
+
+#home .carousel-item img{
+width: 100%;
+height: 100%;
+}
+
+#home .carousel-caption .h5{
+font-size: 5em;
+}
+
+#home .carousel-caption .carousel-text{
+font-size: 3.0em;
+color: #fff
+border-radius: 8px;
+background: rgba(255,255,255,0.2);
+}
+
+#home .carousel-caption .btn{
+background: none;
+border: 5px solid #8A3A35;
+color: #fff;
+padding: 10px 20px;
+}
+#home .carousel-caption .btn:hover{
+background: #8A3A35;
+color: #fff;
+}
+
+/********sobre*****/
+#about{
+padding-top: 150px;
+padding-bottom: 150px;
+}
+
+#about .box .section-title{
+color: #000;
+text-transform: uppercase;
+font-size: 2.9em;
+}
+
+#about .box img{
+width: 100%;
+height: 450px;
+}
+
+#about .box p{
+color: #000;
+font-style: oblique;
+font-size: 1.2em;
+}
+
+#about .box .btn{
+background: none;
+border: 5px solid #8A3A35;
+color: #000;
+padding: 10px 20px;
+}
+
+#about .box .btn:hover{
+background: #8A3A35;
+color: #fff;
+}
+
+/********cardapio da semana*****/
+#menu{
+background: url('../images/banner.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+background-color: #8A3A35;
+padding-top: 50px;
+padding-bottom: 150px;
+}
+#menu .cardapio-title{
+color: #fff;
+text-transform: uppercase;
+font-size: 2.9em;
+padding-bottom: 50px;
+}
+
+#menu .card{
+border: none;
+}
+
+#menu .card-body{
+color: #000;
+font-size: 1.5em;
+}
+
+/*******galeria*****/
+#galeria{
+padding-top:50px;
+padding-bottom: 150px;
+}
+
+#galeria .galeria-title{
+color: #000;
+text-transform: uppercase;
+font-size: 2.9em;
+padding-bottom: 50px;
+}
+
+#galeria .container1{				
+width: 100%;
+height: 500px;
+max-width: 500px;
+position: relative;
+overflow: hidden;
+}
+
+#galeria .containe img{
+width: 100%;
+transition: all .5s;
+}
+
+#galeria .caption1{
+position: absolute;
+bottom: 0;
+left: 0;
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+transition: all 0.5s;
+background-color: black;
+transition: all 0.5s;
+background: linear-gradient(180deg,#000,#000);
+opacity: 0.5;
+transform: translateY(100%);
+}
+
+#galeria .caption1 h1{
+text-transform: uppercase;
+margin: 0;
+}
+
+#galeria .caption1 p{
+font-size: 18px;
+text-transform: capitalize;
+}
+
+#galeria .container1:hover .caption1{
+transform: translateY(0);
+}
+		
+
+/**** contact****/
+#contato{
+padding-top: 80px;
+background: url('../images/form.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+padding-bottom: 150px;
+}
+
+#contato  .contact-title{
+color: #fff;
+text-transform: uppercase;
+font-size: 2.9em;
+padding-bottom: 50px;
+}
+
+#contato .form-group{
+border-radius: 10px;
+color: #fff;
+text-transform: uppercase;
+}
+
+#contato h3{
+color: #fff;
+font-size: 2em;
+}
+
+#contato address{
+color: #fff;
+font-size: 1.5em;
+}
+
+#contato .btn{
+background: none;
+border: 5px solid #8A3A35;
+color: #fff;
+padding: 10px 20px;
+text-transform: uppercase;
+}
+#contato  .btn:hover{
+background: #8A3A35;
+color: #fff;
+}
+
+
+/*******icons****/
+#icons{
+background: #8A3A35;
+}
+
+#icons ul {
+list-style: none;
+padding: 0;
+margin: 0 -7.5px;
+}
+#icons ul > li {
+display: inline-block; 
+padding: 20px 30px;
+width: 31px;
+text-align: center;
+}
+
+#icons a {
+color: #fff;
+font-size: 1.9em;
+}
+#icons a:hover {
+color: #222222;
+}
+
+/*****footer*****/
+#footer {
+background-color: #222222;    
+padding-top: 30px;
+padding-bottom: 30px;
+color: #fff;
+}
+
+#footer a{
+text-decoration: none;
+}
+
